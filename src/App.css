@@ -1,0 +1,53 @@
+.App {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.date-filter {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.edit-form {
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+.chart-container {
+  width: 50%;
+  margin: auto; /* Center the charts */
+}
+
+canvas {
+  max-width: 100%; /* Ensure the charts scale within their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
